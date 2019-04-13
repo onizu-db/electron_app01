@@ -72,9 +72,13 @@ const mainMenuTemplate = [
     ]
   }
 ];
-/*
+
 // If Mac, add empty object to Menu
 if(process.platform == 'darwin') {
-  mainMenuTemplate.unshift({});
+  mainMenuTemplate.unshift({
+    label: app.getName(),
+    submenu: [
+      { role: 'about' },
+    ]
+  });
 }
-*/
