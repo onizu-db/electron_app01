@@ -1,0 +1,14 @@
+{
+  "name": "electron_app01",
+  "version": "1.0.0",
+  "description": "desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "onizu",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^4.1.4"
+  }
+}
